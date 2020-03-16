@@ -76,7 +76,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\dalyn\Desktop\OpenGL\glew-2.1.0\include;C:\Users\dalyn\Desktop\OpenGL\glfw-3.3.2.bin.WIN32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\dalyn\Desktop\opengl\glm;C:\Users\dalyn\Desktop\OpenGL\glew-2.1.0\include;C:\Users\dalyn\Desktop\OpenGL\glfw-3.3.2.bin.WIN32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>C:\Users\dalyn\Desktop\OpenGL\glew-2.1.0\lib\Release\Win32;C:\Users\dalyn\Desktop\OpenGL\glfw-3.3.2.bin.WIN32\lib-vc2017;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -89,7 +89,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\dalyn\Desktop\OpenGL\glew-2.1.0\include;C:\Users\dalyn\Desktop\OpenGL\glfw-3.3.2.bin.WIN32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\dalyn\Desktop\opengl\glm;C:\Users\dalyn\Desktop\OpenGL\glew-2.1.0\include;C:\Users\dalyn\Desktop\OpenGL\glfw-3.3.2.bin.WIN32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>C:\Users\dalyn\Desktop\OpenGL\glew-2.1.0\lib\Release\Win32;C:\Users\dalyn\Desktop\OpenGL\glfw-3.3.2.bin.WIN32\lib-vc2017;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -104,7 +104,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\dalyn\Desktop\OpenGL\glew-2.1.0\include;C:\Users\dalyn\Desktop\OpenGL\glfw-3.3.2.bin.WIN32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\dalyn\Desktop\opengl\glm;C:\Users\dalyn\Desktop\OpenGL\glew-2.1.0\include;C:\Users\dalyn\Desktop\OpenGL\glfw-3.3.2.bin.WIN32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -121,7 +121,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\dalyn\Desktop\OpenGL\glew-2.1.0\include;C:\Users\dalyn\Desktop\OpenGL\glfw-3.3.2.bin.WIN32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\dalyn\Desktop\opengl\glm;C:\Users\dalyn\Desktop\OpenGL\glew-2.1.0\include;C:\Users\dalyn\Desktop\OpenGL\glfw-3.3.2.bin.WIN32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -132,6 +132,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="camera.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
