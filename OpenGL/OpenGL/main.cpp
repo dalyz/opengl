@@ -1,9 +1,13 @@
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
 #include <stdio.h>
+#include <GL/gl.h>
+#include <GL/glu.h>
+#include <box2d.h>
+
 
 int main(void) {
-	
+
 	GLFWwindow *window;
 
 	// start GL context and O/S window using the GLFW helper library
